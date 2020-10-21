@@ -24,3 +24,15 @@
 </h3>
 
 <h2 align="center">Installation on <img src="https://raw.githubusercontent.com/MagicalStrangeQuark/MongoDB/main/Manjaro-logo.svg" width=50 height=50 alt="Manjaro Linux"></h2>
+
+```bash
+    git clone https://aur.archlinux.org/oracle-xe-11g.git 
+```
+
+```bash
+    cd oracle-xe-11g
+```
+
+```bash
+    wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-18c-1.0-1.x86_64.rpm
+```
