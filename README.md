@@ -40,3 +40,27 @@
 ```bash
     makepkg -si
 ```
+
+```bash
+    sudo /etc/rc.d/oracle-xe-18c configure
+```
+
+> secret
+
+set Fully Qualified Domain Name on /etc/hosts, if an error occur
+
+```bash
+    source oracle_env.sh 
+```
+
+```bash
+    sqlplus /nolog
+```
+
+sudo gedit /opt/oracle/product/18c/dbhomeXE/network/admin/listener.ora
+
+sqlplus wesleyflores/wesleyflores@127.0.0.1:1521/ORCLPDB
+
+lsnrctl status
+
+https://gist.github.com/davidmaignan/d0d941cbf761678457b865e6de041af0
